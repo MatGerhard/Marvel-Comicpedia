@@ -1,2 +1,7 @@
 # Marvel-Comicpedia
-Trata-se de um app desenvolvido para Android. Faz o consumo de uma API oficial da Marvel (com retrofit, no padrão service), para a listagem dos personagens e as comics nas quais fazem aparições. O app foi desenvolvido com a arquitetura MVVM e faz uso de Hilt para injeção de dependência e Room como banco de dados local.
+Trata-se de um app desenvolvido para Android. Faz o consumo de uma API oficial da Marvel (com retrofit, no padrão service), foi desenvolvido com a arquitetura MVVM e faz uso de Hilt para injeção de dependência e Room como banco de dados local.
+
+Funcionalidades:
+- O app exibe uma lista de personagens em sua página principal, considerando a ordem alfabética. Também é possível realizar buscas por outros personagens por meio de palavras-chave.
+- É possível acessar a página do personagem selecionado, contendo a descrição dele e as comics nas quais faz aparições.
+- Caso deseje, o usuário pode construir uma lista de personagens favoritos. Também é possível a exculsão do personagem dessa lista.
